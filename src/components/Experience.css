@@ -1,0 +1,35 @@
+.experience-company {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .experience {
+    background: #151515;
+    border-radius: 64px;
+    text-align: left;
+    padding: 60px 100px;
+    margin-top: -60px;
+  }
+  
+  .experience h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  
+  .experience h2 {
+    font-size: 27px;
+  }
+  
+  .experience section {
+    padding-top: 3%;
+  }
+  
+  .experience-team {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .experience-desc {
+    font-size: 18px;
+  }
+  
