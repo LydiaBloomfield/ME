@@ -1,15 +1,31 @@
 import { Row, Col, Container } from "react-bootstrap"
 import colorSharp from "../assets/color-sharp.png"
 import "./Experience.css"
+import { useState, useEffect } from "react";
+
 
 export const Experience = () => {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const onScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolled(true);
+            }
+            else {
+                setScrolled(false);
+            }
+        }
+        window.addEventListener("scroll", onScroll)
+        return () => window.removeEventListener("scroll", onScroll)
+    })
     return (
-        <section className="experience" id="experience">
+        <section className={scrolled ? "experience-scrolled" : "experience"} id="experience">
             <Container>
                 <Row>
                     <Col>
                         <div>
-                            <h1>
+                            <h1 className="title">
                                 Experience
                             </h1>
                             <section>
@@ -17,7 +33,7 @@ export const Experience = () => {
                                     <h2>State Farm</h2>
                                     <p>May 2023 - Aug 2023</p>
                                 </div>
-                                <div className="experience-team">
+                                {/* <div className="experience-team">
                                     Software Engineer Intern, DevOps Enablement Team
                                 </div>
                                 <br></br>
@@ -34,10 +50,10 @@ export const Experience = () => {
                                     <li>
                                         Enhanced the database for a tool designed to determine if consumers' services are up and running.
                                     </li>
-                                </ul>
+                                </ul> */}
                             </section>
 
-                            <section>
+                            {/* <section>
                                 <div className="experience-company">
                                     <h2>State Farm</h2>
                                     <p>May 2022 - Aug 2022</p>
@@ -54,13 +70,13 @@ export const Experience = () => {
                                         Worked with Java and Guidewire-specific Gosu for issues relating to performance improvements, test cases, and consolidation across codebases.
                                     </li>
                                 </ul>
-                            </section>
+                            </section> */}
 
                         </div>
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} />
+            {/* <img className="background-image-left" src={colorSharp} /> */}
         </section>
     )
 }
