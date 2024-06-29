@@ -1,6 +1,5 @@
-
-
-*********** Custom Font *********** @font-face {
+*********** Custom Font *********** 
+@font-face {
   font-family: Centra;
   src: url('./assets/font/CentraNo2-Bold.ttf');
   font-weight: 700;
@@ -25,8 +24,8 @@
   box-sizing: border-box;
 }
 
-.App{
-      background: linear-gradient(90.21deg, #4A2FBD -5.91%, #AA367C 111.58%);
+.App {
+  background: linear-gradient(90.21deg, #4A2FBD -5.91%, #AA367C 111.58%);
 }
 
 html {
