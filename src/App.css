@@ -114,7 +114,7 @@ p.danger {
 .experience-container {
   display: flex; /* Use flexbox for layout */
   flex-wrap: wrap; /* Allow items to wrap to next line */
-  margin-left: 20px;
+  margin: 0px 20px
 }
 
 .item {

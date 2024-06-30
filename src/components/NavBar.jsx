@@ -16,6 +16,12 @@ const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState('about');
 
+  const emailAddress = 'your-email@example.com'; // Replace with your actual email address
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${emailAddress}`;
+  };
+
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
@@ -47,7 +53,7 @@ const NavBar = () => {
         <div className="social-icon">
           <a href="https://www.linkedin.com/in/lydia-bloomfield" target="_blank"><img src={navIcon1} alt="" /></a>
           <a href="https://github.com/LydiaBloomfield" target="_blank"><img src={navIcon2} alt="" /></a>
-          <a href="#connect"><img src={navIcon3} alt="" /></a>
+          <a onClick={handleEmailClick}><img src={navIcon3} alt="" /></a>
         </div>
       </Nav>
     </Navbar>

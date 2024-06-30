@@ -13,10 +13,10 @@ function App() {
       <div className='App'>
         <NavBar></NavBar>
         <Banner></Banner>
-        {/* <div className="experience-container">
+        <div className="experience-container">
         <Experience className="item"></Experience>
-        </div> */}
-        <Skills></Skills>
+        </div>
+        {/* <Skills></Skills> */}
       </div>
     </>
   )

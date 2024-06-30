@@ -20,6 +20,20 @@
   margin-top: -60px;
   animation: slideInFromLeft 1.0s ease-out forwards;
 }
+.title{
+  color: transparent;
+
+  
+}
+.title-scrolled{
+  background-color: transparent;
+  border-radius: 30px;
+  text-align: right;
+  padding: 70px 20px;
+  margin-top: -60px;
+  animation: slideInFromRight 1.0s ease-out forwards;
+  font-size: 70px;
+}
 
 @keyframes slideInFromLeft {
   0% {
@@ -32,10 +46,19 @@
     opacity: 1;
   }
 }
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
 
-.title{
-  font-size: 100px;
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
+
+
 
 /* .experience-company h1 {
   text-align: center;
