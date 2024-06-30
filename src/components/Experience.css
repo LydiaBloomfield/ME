@@ -1,83 +1,100 @@
+.experiences-1 {
+  background: #151515;
+  border-radius: 30px;
+  text-align: left;
+  padding: 30px 50px;
+  margin: 10px 30px;
+  width: 60%;
+  animation: animateIn 1.0s ease-out forwards;
+
+}
+
+.experiences-2 {
+  background: #151515;
+  border-radius: 30px;
+  text-align: left;
+  padding: 30px 50px;
+  margin: 10px 30px;
+  width: 73%;
+  animation: animateIn 1.0s ease-out forwards;
+  animation-delay: 150ms;
+}
+
+.experiences-3 {
+  background: #151515;
+  border-radius: 30px;
+  text-align: left;
+  padding: 30px 50px;
+  margin: 10px 30px;
+  width: 86%;
+  animation: animateIn 1.0s ease-out forwards;
+  animation-delay: 300ms;
+}
+
+.experiences-4 {
+  background: #151515;
+  border-radius: 30px;
+  text-align: left;
+  padding: 30px 50px;
+  margin: 10px 30px;
+  width: 100%;
+  animation: animateIn 1.0s ease-out forwards;
+  animation-delay: 450ms;
+}
+
+.experiences-1:hover,
+.experiences-2:hover,
+.experiences-3:hover,
+.experiences-4:hover {
+  box-shadow: 0 0 30px #fff;
+  transition: box-shadow .5s ease-in-out
+}
+
+.experience-title {
+  margin-left: 50px;
+  width: 100%;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
 .experience-company {
   display: flex;
   justify-content: space-between;
 }
 
-.experience {
-  /* background: #151515;
-  border-radius: 30px;
-  text-align: left;
-  padding: 60px 100px;
-  margin-top: -60px; */
-  color: transparent;
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6) translateY(-8px);
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .experience-scrolled {
-  background: #151515;
-  border-radius: 30px;
-  text-align: left;
-  padding: 60px 100px;
-  margin-top: -60px;
-  animation: slideInFromLeft 1.0s ease-out forwards;
-}
-.title{
-  color: transparent;
-
-  
-}
-.title-scrolled{
-  background-color: transparent;
-  border-radius: 30px;
-  text-align: right;
-  padding: 70px 20px;
-  margin-top: -60px;
-  animation: slideInFromRight 1.0s ease-out forwards;
-  font-size: 70px;
+  display: none;
 }
 
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+h1{
+  margin-top: 100px
 }
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-
-
-/* .experience-company h1 {
-  text-align: center;
-  font-size: 100px;
-} */
-
-/* .experience h2 {
-  font-size: 27px;
-} */
-
-.experience section {
-  padding-top: 3%;
-}
-
-.experience-team {
-  font-size: 17px;
+h2 {
+  font-size: 30px;
   font-weight: bold;
 }
 
-.experience-desc {
+h3{
+  font-size: 22px;
+}
+
+h4{
+  font-size: 18px;
+}
+
+p{
   font-size: 18px;
 }

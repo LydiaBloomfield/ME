@@ -28,6 +28,7 @@
   background: linear-gradient(90.21deg, #4A2FBD -5.91%, #AA367C 111.58%);
 }
 
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
@@ -114,7 +115,7 @@ p.danger {
 .experience-container {
   display: flex; /* Use flexbox for layout */
   flex-wrap: wrap; /* Allow items to wrap to next line */
-  margin: 0px 20px
+  /* margin: 0px 20px */
 }
 
 .item {

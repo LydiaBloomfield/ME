@@ -16,7 +16,7 @@ const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [activeLink, setActiveLink] = useState('about');
 
-  const emailAddress = 'your-email@example.com'; // Replace with your actual email address
+  const emailAddress = 'lydia.r.bloom@gmail.com'; // Replace with your actual email address
 
   const handleEmailClick = () => {
     window.location.href = `mailto:${emailAddress}`;
