@@ -1,6 +1,7 @@
-import { Container, Row, Col, Nav } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import resume from "../assets/resume.pdf"
+
 
 import "./Banner.css"
 
