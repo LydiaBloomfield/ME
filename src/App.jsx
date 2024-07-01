@@ -1,11 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import React from 'react';
 import NavBar from './components/NavBar';
 import { Experience } from './components/Experience';
 import { Banner } from './components/Banner';
-import Skills from './components/Skills';
+// import Skills from './components/Skills';
 function App() {
 
   return (
