@@ -18,7 +18,7 @@ export const Experience = () => {
     })
     return (
         <>
-            <h1  className="experience-title" id="experience">Experience</h1>
+            <h1  className="experience-title" >Experience</h1>
             <section  className={scrolled ? "experiences-1" : "experience-scrolled" }>
                 <div className="experience-company" >
                     <h2 >State Farm</h2>
@@ -27,9 +27,9 @@ export const Experience = () => {
                 <h3>Software Engineer Intern</h3>
                 <h4> DevOps Enablement Team</h4>
                 <ul className='experience-desc'>
-                    {/* <li>
+                    <li>
                         Migrated tools from CaaS to AWS through utilization of various AWS services, such as Lambda, API Gateway, and S3.
-                    </li> */}
+                    </li>
                 </ul>
             </section>
             <section className={scrolled ? "experiences-2" : "experience-scrolled"}>
@@ -40,7 +40,7 @@ export const Experience = () => {
                 <h3>Software Engineer Intern</h3>
                 <h4> DevOps Enablement Team</h4>
                 <ul className='experience-desc'>
-                    {/* <li>
+                    <li className="showme">
                         Fully developed the API for a tool with 75,000 data entries and capable of being used by the entire P&C Auto/Fire division of the company.
                     </li>
                     <li>
@@ -48,9 +48,11 @@ export const Experience = () => {
                     </li>
                     <li>
                         Created a consultation request capability allowing consumers of the team's product to request assistance. Requests directly generate gitLab issues for the team's review.
-                    </li> */}
+                    </li>
                 </ul>
             </section>
+            <h1 id="experience"></h1>
+
             <section className={scrolled ? "experiences-3" : "experience-scrolled"}>
                 <div className="experience-company">
                     <h2>State Farm</h2>
@@ -59,12 +61,12 @@ export const Experience = () => {
                 <h3>Software Engineer Intern</h3>
                 <h4> Customer Data Team</h4>
                 <ul className='experience-desc'>
-                    {/* <li>
+                    <li>
                         Enhanced Customer Data Integrator and Policy Center.
                     </li>
                     <li>
                         Worked with Java and Guidewire-specific Gosu for issues relating to performance improvements, test cases, and consolidation across codebases.
-                    </li> */}
+                    </li>
                 </ul>
             </section>
             <section className={scrolled ? "experiences-4" : "experience-scrolled"}>
@@ -75,12 +77,12 @@ export const Experience = () => {
                 <h3>Teaching Assistant</h3>
                 <h4> Introduction to Personality</h4>
                 <ul className='experience-desc'>
-                    {/* <li>
+                    <li>
                         Used my own proficiency in psychological concepts to foster understanding in 30 students.
                     </li>
                     <li>
                         Provided concise and kind feedback on over 25 assignments per student.
-                    </li> */}
+                    </li>
 
                 </ul>
             </section>

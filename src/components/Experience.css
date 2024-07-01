@@ -98,3 +98,25 @@ h4{
 p{
   font-size: 18px;
 }
+
+.experience-desc{
+  display: none;
+}
+
+.experiences-1:hover .experience-desc{
+  display:block;
+  transition: display 0.3s ease;
+
+}
+
+.experiences-2:hover .experience-desc {
+  display:block;
+}
+
+.experiences-3:hover .experience-desc{
+  display:block;
+}
+
+.experiences-4:hover .experience-desc{
+  display:block;
+}
