@@ -100,23 +100,35 @@ p{
 }
 
 .experience-desc{
-  display: none;
+  max-height:0;
+  opacity: 0;
+  transition: max-height .5s ease-out, opacity .4s ease-out
 }
 
 .experiences-1:hover .experience-desc{
-  display:block;
-  transition: display 0.3s ease;
+  max-height: 400px;
+  opacity: 1;
+  transition: max-height .5s ease-in, opacity .5s ease-in-out;
 
 }
 
 .experiences-2:hover .experience-desc {
-  display:block;
+  max-height: 400px;
+  opacity: 1;
+  transition: max-height .5s ease-in, opacity .5s ease-in;
+
 }
 
 .experiences-3:hover .experience-desc{
-  display:block;
+  max-height: 400px;
+  opacity: 1;
+  transition: max-height .5s ease-in, opacity .5s ease-in;
+
 }
 
 .experiences-4:hover .experience-desc{
-  display:block;
+  max-height: 400px;
+  opacity: 1;
+  transition: max-height .5s ease-in, opacity .5s ease-in;
+
 }
