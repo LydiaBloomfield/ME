@@ -4,7 +4,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import { Experience } from './components/Experience';
 import { Banner } from './components/Banner';
-// import Skills from './components/Skills';
+import Skills from './components/Skills';
 function App() {
 
   return (
@@ -15,7 +15,7 @@ function App() {
         <div className="experience-container">
         <Experience className="item"></Experience>
         </div>
-        {/* <Skills></Skills> */}
+        <Skills></Skills>
       </div>
     </>
   )
