@@ -28,7 +28,6 @@
   background: linear-gradient(90.21deg, #4A2FBD -5.91%, #AA367C 111.58%);
 }
 
-
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
@@ -72,11 +71,6 @@ a:active {
 a:hover {
   text-decoration: none;
 }
-
-/* img {
-  width: 100%;
-  height: auto;
-} */
 
 button {
   border: 0;
