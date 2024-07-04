@@ -1,6 +1,6 @@
 # Welcome!
 
-This is my portfolio website made with Vite, JavaScript, HTML, hand-written CSS, and deployed via GitHub Pages. The site is currently in progress.
+This is my portfolio website made with Vite, JavaScript, HTML, hand-written CSS, and deployed via GitHub Pages. This site is currently in progress.
 
 ## Relevant Commands
 
