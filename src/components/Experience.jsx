@@ -18,7 +18,8 @@ export const Experience = () => {
     })
     return (
         <>
-            <h1  className="experience-title" >Experience</h1>
+            <h1  className="experience-title" id="experience">Experience</h1>
+
             <section  className={scrolled ? "experiences-1" : "experience-scrolled" }>
                 <div className="experience-company" >
                     <h2 >State Farm</h2>
@@ -51,7 +52,7 @@ export const Experience = () => {
                     </li>
                 </ul>
             </section>
-            <h1 id="experience"></h1>
+            
 
             <section className={scrolled ? "experiences-3" : "experience-scrolled"}>
                 <div className="experience-company">
