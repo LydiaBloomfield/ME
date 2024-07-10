@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ME from "../assets/ME.png"
 import me from "../assets/mee.png"
+import { CardImage } from "react-bootstrap-icons";
 
 export const Projects = () => {
 
@@ -11,7 +12,7 @@ export const Projects = () => {
             <h1>Projects</h1>
             <div className="card-container">
                 <Card className="card">
-                    <Card.Img className="project-image" variant="top" src={ME} />
+                    <img className="project-image-1" src={ME}/>
                     <Card.Body className="body">
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -22,7 +23,7 @@ export const Projects = () => {
                     </Card.Body>
                 </Card>
                 <Card className="card">
-                    <Card.Img className="project-image" variant="top" src={ME} />
+                    <Card.Img className="project-image-2" variant="top" src={ME} />
                     <Card.Body className="body">
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -33,7 +34,7 @@ export const Projects = () => {
                     </Card.Body>
                 </Card>
                 <Card className="card">
-                    <Card.Img className="project-image" variant="top" src={ME} />
+                    <Card.Img className="project-image-3" variant="top" src={ME} />
                     <Card.Body className="body">
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>

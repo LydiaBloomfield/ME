@@ -7,6 +7,7 @@ h1 {
     margin: 20px 50px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .card {
@@ -17,21 +18,24 @@ h1 {
     margin: 10px;
 }
 
-.project-image {
+.project-image-1, .project-image-2, .project-image-3{
     width: 15rem;
     display: block;
     margin: auto;
     border-radius: 5px;
 }
 
+
 .body {
     max-height: 0;
     opacity: 0;
-    transition: max-height .5s ease-out, opacity .4s ease-out
+    transition: max-height .5s ease-out, opacity .4s ease-out;
+    visibility: collapse
 }
 
 .card:hover .body {
     max-height: 400px;
     opacity: 1;
     transition: max-height .5s ease-in, opacity .5s ease-in-out;
+    visibility: visible;
 }
