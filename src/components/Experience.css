@@ -109,7 +109,6 @@ p{
   max-height: 400px;
   opacity: 1;
   transition: max-height .5s ease-in, opacity .5s ease-in-out;
-
 }
 
 .experiences-2:hover .experience-desc {
