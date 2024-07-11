@@ -11,3 +11,4 @@ npm start: run the server locally
 - Footer
 - Reorder NavBar
 - Change to rem over px
+- Fix banner spacing
