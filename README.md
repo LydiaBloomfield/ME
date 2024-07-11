@@ -5,3 +5,9 @@ This is my portfolio website made with Vite, JavaScript, HTML, hand-written CSS,
 ## Relevant Commands
 
 npm start: run the server locally
+
+### To Do
+- Projects
+- Footer
+- Reorder NavBar
+- Change to rem over px
