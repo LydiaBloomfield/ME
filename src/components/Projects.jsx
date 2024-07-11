@@ -10,8 +10,8 @@ export const Projects = () => {
 
     return (
         <>
-            <h1>Projects</h1>
-            <div className="card-container">
+            <h1 id="projects">Projects</h1>
+            <div className="card-container" >
                 <Card className="card">
                     <img className="project-image-1" src={carryOn} />
                     <Card.Body className="body">
