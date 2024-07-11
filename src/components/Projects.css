@@ -12,14 +12,22 @@ h1 {
 
 .card {
     background-color: #121212;
-    width: 18rem;
+    width: 20rem;
     padding: 20px;
     border-radius: 20px;
-    margin: 10px;
+    margin: 5px;
+}
+
+h3{
+    padding: .5rem 0;
+}
+
+.card-text{
+    text-align: justify;
 }
 
 .project-image-1, .project-image-2, .project-image-3{
-    width: 15rem;
+    width: 100%;
     display: block;
     margin: auto;
     border-radius: 5px;
