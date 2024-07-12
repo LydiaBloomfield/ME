@@ -1,10 +1,8 @@
 import "./Projects.css"
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import ME from "../assets/ME.png"
+import me from "../assets/ME.png"
 import fish from "../assets/fish.png"
 import carryOn from "../assets/carryOn.png"
-import { CardImage } from "react-bootstrap-icons";
 
 export const Projects = () => {
 
@@ -33,7 +31,7 @@ export const Projects = () => {
                     </Card.Body>
                 </Card>
                 <Card className="card">
-                    <Card.Img className="project-image-3" variant="top" src={ME} />
+                    <Card.Img className="project-image-3" variant="top" src={me} />
                     <Card.Body className="body">
                         <h3> My Portfolio </h3>
                         <Card.Text className="card-text">
