@@ -7,9 +7,9 @@ This is my portfolio website made with Vite, JavaScript, HTML, hand-written CSS,
 npm start: run the server locally
 
 ### To Do
-- Fix project formatting
+- Fix projects sizing and formatting
 - Add project links
-- Add ooter
 - Fix navigation to technologies on load
 - Change to rem over px
 - Fix banner spacing
+- About / Current events
