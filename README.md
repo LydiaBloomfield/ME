@@ -14,3 +14,4 @@ npm start: run the server locally
 - Fix banner spacing
 - Add an about / current events section
 - Fix fonts
+- Work on responsiveness
